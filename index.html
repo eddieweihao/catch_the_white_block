@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>围住小白块</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        #box_game{
+            height: 700px;
+            width: 600px;
+            position: absolute;
+            top: 0px;
+            margin-left: 50%;
+            left: -300px;
+            background-color: #ffe4c4;
+        }
+        #map_div{
+            width: 411px;
+            height: 411px;
+            margin: 40px auto;
+            background-color: #f08080;
+        }
+        #text_div{
+            width: 400px;
+            height: 100px;
+            margin: 0 auto;
+        }
+        #text_div span{
+            display: block;
+            width: 300px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="box_game">
+        <!--地图-->
+        <div id="map_div">
+
+        </div>
+        <!--说明-->
+        <div id="text_div">
+            <span>游戏规则：</span>
+            <span>点击方块生成障碍物将白块围住，不让白块到达地图边缘。</span>
+        </div>
+    </div>
+    <script type="text/javascript" src="app.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
